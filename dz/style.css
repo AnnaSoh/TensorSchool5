@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+
+#wraper {
+    margin: 0 auto;
+}
+
+
+header {
+    margin: 40px 0px;
+}
+
+
+header .title img {
+    height: 30px;
+}
+
+
+header .title span {
+    font-size: 1.9em;
+    text-transform: uppercase;
+}
+
+
+header .title span:after {
+    content: '';
+    display: block;
+    border-top: 3px solid #000;
+    width: 150px;
+    margin: 20px auto;
+}
+
+
+header .title p {
+    margin: 40px 250px;
+}
+
+
+.persons {
+    max-width: 950px;
+    margin: 40px auto;
+}
+
+
+.persons .card_persons {
+    width: 30%;
+    display: inline-block;
+}
+
+
+.persons .card_persons img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+    
+
+.persons .card_persons span {
+    font-size: 0.9em;
+    color:#C0C0C0;
+}
+
+
+.persons .card_persons: hover {
+    outline: 1px solid #C0C0C0;
+    cursor: pointer;
+}
