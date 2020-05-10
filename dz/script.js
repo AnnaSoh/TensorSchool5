@@ -24,7 +24,7 @@ studentArr.forEach((item) => {
 });
 
 let stud = new Student();
-div1.addEventListener("click", stud);
+document.getElementById("student").addEventListener("click", stud);
 
 
 
