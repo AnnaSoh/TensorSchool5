@@ -40,20 +40,14 @@ header .title p {
     margin: 40px 250px;
 }
 
-
-.persons {
-    max-width: 950px;
-    margin: 40px auto;
-}
-
-
-.persons .card_persons {
+div .card_persons {
     width: 30%;
     display: inline-block;
+    margin: 20px auto;
 }
 
 
-.persons .card_persons img {
+div .card_persons img {
     width: 200px;
     height: 200px;
     object-fit: cover;
@@ -61,13 +55,64 @@ header .title p {
 }
     
 
-.persons .card_persons span {
+div .card_persons span {
     font-size: 0.9em;
     color:#C0C0C0;
 }
 
 
-.persons .card_persons: hover {
+div .card_persons:hover {
     outline: 1px solid #C0C0C0;
     cursor: pointer;
 }
+
+#opencard {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 5px 10px 10px;
+	width: 400px;
+	height: 200px;
+	background: #FFFFFF;
+	position: absolute;
+	top: 300px;
+	left: 50%;
+    margin-left: -200px;
+    border-radius: 10px;
+    border: 2px solid #DCDCDC;
+
+}
+
+#opencard img {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+#opencard span {
+    display: block;
+    font-size: 0.7em;
+    color:#C0C0C0;
+    text-align: left;
+}  
+
+#opencard p {
+    font-size: 25px;
+    display: block;
+    margin-top: 30px;
+}
+
+#opencard button {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    margin-left: 370px;
+    color:#C0C0C0;
+}
+
+#opencard button:hover {
+    cursor: pointer;
+  }
