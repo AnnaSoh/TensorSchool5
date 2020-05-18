@@ -97,6 +97,7 @@ div .card_persons:hover {
     font-size: 0.7em;
     color:#C0C0C0;
     text-align: left;
+    margin-top: 8px;
 }  
 
 #opencard p {
